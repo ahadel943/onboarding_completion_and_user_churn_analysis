@@ -49,3 +49,22 @@ The dataset covers user activity throughout **2025**, including user profiles, o
 
 ## **Business Question**
 ### **Does onboarding completion reduce churn?**
+
+### **Baseline KPIs**
+Before analyzing churn and inactivity patterns, a set of baseline KPIs was calculated to establish an initial understanding of the user base, onboarding performance, and overall product activity.
+
+| Column        | Description                        |
+| ------------- | ---------------------------------- |
+| Total Users     | **100,000**    |
+| Onboarding Completion Rate    | **63.34%** |
+| Completed Onboarding Users    | **63.43K** |
+| Not Completed Onboarding Users    | **36.57K** |
+| Total Active Days    | **9,000,000** |
+| Average Active Days per User    | **88.22** |
+| Total Sessions    | **19,000,000** |
+| Average Sessions per Active Day    | **2.18** |
+| Average Sessions per User    | **191.96** |
+
+These baseline metrics provide an initial view of the dataset before defining and analyzing churn. The user base contains **100,000 users**, with approximately **63%** completing onboarding. Across the dataset, users generated **9 million active user-days and 19 million sessions**, averaging **88.22 active days and 191.96 sessions per user**. On active days, users recorded an average of **2.18 sessions**. These metrics describe the overall level of engagement but do not yet indicate whether users are churning or whether onboarding completion is associated with better retention. The next stage therefore focuses on analyzing the gaps between users' active days to understand their inactivity patterns and establish a data-driven churn threshold.
+
+### **Analysis**
